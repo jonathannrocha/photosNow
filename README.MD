@@ -1,6 +1,12 @@
 # Photos Now
 
-Photos now é um projeto de treino onde é consumido a API do [{JSON} Placeholde](https://jsonplaceholder.typicode.com/). É possível visualizar todos os albums criados e quais fotos este album possui.
+Photos now é um projeto de treino onde é consumido a API do [{JSON} Placeholde](https://jsonplaceholder.typicode.com/). É possível visualizar todos os albums criados e quais fotos este album possui.#
+
+#
+
+<video width="420" height="240" controls>
+  <source src="./github/app.mp4" type="video/mp4">
+</video>
 
 ## Stack utilizada
 
