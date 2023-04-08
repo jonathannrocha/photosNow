@@ -35,18 +35,23 @@ export const Bottom = styled.div`
 
   .firt {
     margin-right: 10px;
-    border: 2px solid #1273eb;
+    background-color: #1272eb;
     border-radius: 5px;
+
+    &:hover {
+      background-color: #1250eb;
+    }
   }
 
   .second {
     border-radius: 5px;
-    background-color: #1273eb;
+    background-color: #1272eb;
     img {
       margin-right: 10px;
-      svg {
-        fill: #fff;
-      }
+    }
+
+    &:hover {
+      background-color: #1250eb;
     }
   }
 `;

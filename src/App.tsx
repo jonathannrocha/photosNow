@@ -4,8 +4,7 @@ import { Route, Routes } from "react-router-dom";
 
 import { Footer } from "./components/Footer";
 import { Header } from "./components/Header";
-import { HomeList } from "./pages/Home";
-import { PhotosAlbums } from "./pages/PhotosAlbum";
+import { HomeList, PhotosAlbums } from "./pages/index";
 
 function App() {
   return (
@@ -14,7 +13,7 @@ function App() {
 
       <Routes>
         <Route path="/" element={<HomeList />} />
-        <Route path="/Home/Album/:albumId" element={<PhotosAlbums />} />
+        <Route path="/Home/Album/:id" element={<PhotosAlbums />} />
       </Routes>
       <Footer />
     </Contaneir>

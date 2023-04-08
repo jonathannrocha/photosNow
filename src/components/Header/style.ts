@@ -9,7 +9,7 @@ export const Contaneier = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-
+  top: 0;
   div span {
     font-size: 1.1em;
     cursor: pointer;
